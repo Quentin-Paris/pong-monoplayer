@@ -86,8 +86,8 @@ body {
 /** parametrage pour affichage du score **/
 .score{
     top : 0;
-    width : 50%;
-    height : 100%;
+    width : 25%;
+    height : 225%;
     /**outline : 1px dashed yellow;**/
     display: flex;
     justify-content: center;
