@@ -161,7 +161,7 @@ class Balle {
         if ((this.droite) > terrain.largeur) {
             terrain.tiltDroite();
 
-            joueur0.ajoutScore();
+            
             this.buf = 0.75;
 
             this.droite = terrain.largeur;
@@ -175,7 +175,7 @@ class Balle {
         if (this.positionX < 0) {
             terrain.tiltGauche();
 
-            joueur1.ajoutScore();
+            
             this.buf = 0.25;
 
             this.positionX = 0;
@@ -211,6 +211,7 @@ class Balle {
                     son.playNote();
 
                     raquetteGauche.changerCouleur();
+                    joueur0.ajoutScore();
                 }
             }
         }
@@ -225,6 +226,7 @@ class Balle {
                     son.playNote();
 
                     raquetteDroite.changerCouleur();
+                    joueur0.ajoutScore();
                 }
             }
         }

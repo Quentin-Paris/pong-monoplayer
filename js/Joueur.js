@@ -12,7 +12,7 @@ class Joueur{
      * Ajout du score pour chaque joueurs
      */
     ajoutScore(){
-        this.score += 1;
+        this.score += 10;
         // this.$element.slideUp(10);
         this.$element.text(this.score);
         // this.$element.slideDown();
